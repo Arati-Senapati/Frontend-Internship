@@ -1,0 +1,36 @@
+body{
+    background-color: #f0f0f0;
+    color: #ebe2e2;
+    font-size: 20px ;
+    background-image: url('/image/Beautiful-scene.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    color: rgb(255,87,51);
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+p{
+    color:rgba(182, 226, 226, 0.8);
+    font-size: 2em;
+    text-align: center;
+}
+h2{
+    color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+h3{
+    color: #f0f0f0;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    color: #f0f0f0;
+    font-size: 50px;
+    text-decoration: none;
+}
