@@ -1,0 +1,173 @@
+ /* .block{
+    display: block;
+    background-color: blue;
+} 
+.inline{
+    display: inline;
+    background-color: aqua;
+}
+a{
+    display: inline;
+    background-color: rebeccapurple;
+}
+button{
+    display: inline-block;
+    width: 150px;
+  height: 50px;
+}
+.inline-block{
+    display: inline-block;
+    border: 1px solid black;
+}
+.hidden {
+  display: none;
+}
+
+.float-left {
+  float: right;
+  margin: 10px;
+}
+
+#img1{
+    width: 150px;
+    height: 100px;
+    float: left;
+}
+#img2{
+    width: 150px;
+    height: 100px;
+    float: right;
+    clear: left;
+}
+
+.container{
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.container img{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+.footer{
+    clear: both;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+} */
+
+/* #img1{
+    width: 200px;
+    position: static; 
+}
+#img2{
+    width: 200px;
+    position: relative; 
+    top: 20px;
+    left: 20px;
+}
+#img3{
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+#img4{
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#img5{
+    width: 200px;
+    position: sticky;
+    top: 0;
+} */
+
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 800px;
+    margin: 20px  auto; 
+    border: 1px solid #ccc;
+}
+
+.sidebar{
+    float: left;
+    width: 200px;
+    background-color: #644e4e;
+    padding: 15px;
+}
+
+.content{
+    margin-left: 230px;
+    padding: 15px ;
+}
+
+.footer{
+    clear: both;
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+
+} */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    top: 40px;
+    width: 600px;
+    position: relative;   
+    height: 300px;
+    margin: 40px auto;
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.relative-box{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.absolute-box{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 150px;
+    padding: 10px;
+    background-color: lightcoral;
+}
+
+body{
+    margin: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 20px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
