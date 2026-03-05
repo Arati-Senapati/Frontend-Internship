@@ -1,0 +1,101 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(5,1fr); */
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows: repeat(autofill,min(200px,1fr));
+    grid-gap: 20px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(50px,auto);
+    /* column-gap: 120px;
+    row-gap: 120px; */
+    
+}
+
+.items{
+    background-color: lightcoral;
+    border: 3px green solid;
+    border-radius: 3px;
+}
+
+/* #item-2{
+   grid-row-start: 2;
+   grid-row-end: 3; 
+   grid-column-start: 2;
+   grid-column-end: 3;
+}
+
+#item-1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+} */
+
+.item-1-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#item-1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.nested-item{
+    border:3px greenyellow solid ;
+    border-radius: 3px;
+    background-color: lightyellow;
+}
+
+
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .grid-container {
+            display: grid;
+
+            /* 3 Columns */
+            grid-template-columns: 1fr 2fr 1fr;
+
+            /* 3 Rows */
+            grid-template-rows: auto 1fr auto;
+
+            /* Define grid areas */
+            grid-template-areas:
+                "header header header"
+                "sidebar content content"
+                "footer footer footer";
+
+            gap: 15px;  /* Space between grid items */
+            padding: 15px;
+            height: 100vh;
+        }
+
+        .header {
+            grid-area: header;
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background: #2196F3;
+            color: white;
+            padding: 20px;
+        }
+
+        .content {
+            grid-area: content;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+
+        .footer {
+            grid-area: footer;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
