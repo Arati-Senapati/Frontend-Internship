@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+h1,h2{
+   font-family: "Playfair Display", serif; 
+}
+
+section{
+    padding: 70px 10%;
+}
+
+/* header */
+.header{
+    text-align: center;
+}
+.header h1,p{
+    margin: 0;
+}
+
+.header h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:8px;
+}
+
+.header p{
+    font-size:18px ;
+    font-weight: 300;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.4;
+}
+
+/* product */
+.product{
+    display: flex;
+    align-items:center;
+    gap:50px;
+}
+
+.diamond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.diamond img {
+    transform: rotate(-45deg);
+    overflow: hidden;
+    width: 210px;
+    height: 210px;
+    position: relative;
+    margin: 0 -5px;
+    
+}
+
+#saree2{
+    z-index: 2;
+    transform: rotate(45deg) scale(1.2);
+    object-fit: fill;
+}
+
+
+
+.product-description{
+    max-width:500px;
+}
+ 
+.product-description h2{
+    font-size:36px;
+    font-weight:600;
+    color:white; /* HEX */
+    margin-bottom:20px;
+}
+
+.product-description p{
+    font-size:16px;
+    line-height:1.8;
+    color:hsl(0, 3%, 66%); /* HSL */
+    text-align:left;
+}
+/* craft */
+.craft{
+    text-align: center;
+}
+.craft h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.craft p{
+    font-size:18px;
+    max-width:800px;
+    margin:auto;
+    line-height:1.7;
+}
+
+
+/* footer */
+footer{
+    text-align:center;
+    padding:5px;
+    font-size:10px;
+    background-color: black;
+}
+footer .social-media a i{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
