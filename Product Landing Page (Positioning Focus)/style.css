@@ -1,0 +1,170 @@
+body{
+    margin:0;
+     padding-top: 80px;
+    font-family:'Poppins', sans-serif;
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+h1,h2{
+    font-family:'Playfair Display', serif;
+}
+
+section{
+    width:80%;
+    margin:50px auto; 
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(24, 21, 21);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+.hero{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.hero-content{
+    background-color:rgba(0,0,0,0.4);
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    color:wheat;
+}
+.hero-content h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:18px;
+    line-height:1.6;
+}
+
+/* ===== Product Overview Section ===== */
+.overview{
+    padding: 40px;
+    border: 2px solid rgb(43, 35, 21);
+    color: wheat;
+    background-color: rgba(0, 0, 0,0.4);
+    border-radius: 10px;
+}
+
+.overview-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.overview img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid rgb(42, 41, 41);
+    border-radius: 10px;
+}
+.overview-text{
+    padding: 20px;
+}
+
+/* ===== Relative Position Example ===== */
+.overview-text h1{
+    position:relative;
+    left: 10px;
+    top: 5px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.overview-text p{ 
+    font-size:16px; 
+    line-height:1.8; 
+}
+
+/* ===== Features Section ===== */
+.features{ 
+    background-color:rgba(0,0,0,0.4);  
+    padding:40px; 
+    border:2px solid rgb(43, 35, 21);
+    border-radius:15px; 
+    color: antiquewhite;
+    position: relative;
+}
+
+.feature-box{ 
+    border: 1px solid wheat;
+    border-radius:12px; 
+    padding:20px; /* Padding inside box */ 
+    margin:20px 0; 
+    background-color:black; 
+}
+
+.feature-box h2{ 
+    font-size:22px; 
+    margin-bottom:10px; 
+}
+
+/* ===== Floating Action Button (Absolute) ===== */
+.floating-btn{
+    position: absolute;
+    bottom: 12px;
+    right: 99px; 
+    background-color: beige;
+    padding:12px 20px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-weight:600;
+}
+/* ===== Testimonials Section ===== */
+.testimonials{ 
+    background-color: rgba(0,0,0,0.4);  
+    padding:40px; 
+    border:1px solid rgb(42, 41, 41); 
+    border-radius:15px; 
+    color: blanchedalmond;
+}
+
+.testimonial-card{
+    border:1px solid rgb(42, 41, 41);;
+    border-radius:12px;
+    padding:20px;
+    margin:20px 0;
+    background-color: black;
+}
+
+.testimonial-card p{
+    font-size:15px;
+    line-height:1.6;
+}
+
+.testimonial-card h3{
+    margin-top:15px;
+    font-weight:600;
+}
+
+/* ===== Responsive ===== */
+/* @media (max-width:768px){
+    .overview-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .overview img{
+        width:100%;
+        height:auto;
+    }
+} */
