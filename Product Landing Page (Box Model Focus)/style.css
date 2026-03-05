@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+h1,h2{
+    font-family:'Playfair Display', serif;
+}
+
+section{
+    width:80%;
+    margin:50px auto; 
+}
+
+.overview{
+    padding: 40px;
+    border: 2px solid rgb(43, 35, 21);
+    color: aliceblue;
+    background-color: rgba(0, 0, 0,0.6);
+    border-radius: 10px;
+}
+
+.overview-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.overview img{
+    width: 250px;
+    height: 300px;
+    border: 3px solid rgb(42, 41, 41);
+    border-radius: 5px;
+}
+.overview-text{
+    padding: 20px;
+}
+
+.overview-text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.overview-text p{ 
+    font-size:16px; 
+    line-height:1.8; 
+}
+
+.features{ 
+    background-color:rgba(0,0,0,0.6);  
+    padding:40px; 
+    border:2px solid rgb(43, 35, 21);
+    border-radius:15px; 
+    color: antiquewhite;
+}
+
+.feature-box{ 
+    border: 1px solid wheat;
+    border-radius:6px; 
+    padding:20px; /* Padding inside box */ 
+    margin:20px 0; 
+    background-color:black; 
+}
+
+.feature-box h2{ 
+    font-size:22px; 
+    margin-bottom:10px; 
+}
+
+.testimonials{ 
+    background-color: rgba(0,0,0,0.4);  padding:40px; 
+    border:1px solid rgb(42, 41, 41); border-radius:15px; 
+    color: blanchedalmond;
+}
